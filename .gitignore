@@ -1,0 +1,19 @@
+# data, weights and calibration artefacts are never committed
+datasets/*
+!datasets/.gitkeep
+pretrained/*
+!pretrained/.gitkeep
+calib/
+ckpts/
+logs/
+*.pth
+*.pt
+*.zip
+*.tar.gz
+
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+.idea/
+.vscode/

@@ -1,0 +1,5 @@
+torch>=2.0
+numpy
+einops
+Pillow
+scikit-learn
