@@ -102,15 +102,16 @@ weight-training PTQ protocol with LoRA rectifier groups. All other settings are 
 ## Citation
 If you find this work useful, please cite our paper:
 
-@misc{chung2026hardwarefriendlytokengroupactivationquantization,
-      title={Hardware-Friendly Token-Group Activation Quantization for Low-Bit Mamba Super-Resolution}, 
-      author={Jinwoo Chung and Jangho Kim},
-      year={2026},
-      eprint={2610.16261},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2610.16261}, 
+```bibtex
+@misc{chung2026tgq,
+  title         = {Hardware-Friendly Token-Group Activation Quantization for Low-Bit {Mamba} Super-Resolution},
+  author        = {Chung, Jinwoo and Kim, Jangho},
+  year          = {2026},
+  eprint        = {2610.16261},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/abs/2610.16261}
 }
+```
 
 ## License and acknowledgements
 
