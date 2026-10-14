@@ -1,6 +1,6 @@
 # TGQ-MambaSR: Hardware-Friendly Token-Group Activation Quantization for Low-Bit Mamba Super-Resolution
 
-**NeurIPS 2026** · [Poster page](https://neurips.cc/virtual/2026/loc/paris/poster/155635)
+**NeurIPS 2026** · [Paper (PDF)](https://arxiv.org/pdf/2610.16261) · [arXiv](https://arxiv.org/abs/2610.16261) · [Poster page](https://neurips.cc/virtual/2026/loc/paris/poster/155635)
 
 Jinwoo Chung, Jangho Kim\* · Kookmin University (\*corresponding author)
 
@@ -100,11 +100,17 @@ weight-training PTQ protocol with LoRA rectifier groups. All other settings are 
 | ×4 W2A2 | LoRA | 30.93 / 0.8749 | 27.80 / 0.7626 | 27.06 / 0.7190 | 24.72 / 0.7365 | 28.11 / 0.8709 |
 
 ## Citation
+If you find this work useful, please cite our paper:
 
-The BibTeX entry will be added once the proceedings entry is available. Until then please cite the
-NeurIPS 2026 paper *Hardware-Friendly Token-Group Activation Quantization for Low-Bit Mamba
-Super-Resolution* (Jinwoo Chung, Jangho Kim) and link to the
-[poster page](https://neurips.cc/virtual/2026/loc/paris/poster/155635).
+@misc{chung2026hardwarefriendlytokengroupactivationquantization,
+      title={Hardware-Friendly Token-Group Activation Quantization for Low-Bit Mamba Super-Resolution}, 
+      author={Jinwoo Chung and Jangho Kim},
+      year={2026},
+      eprint={2610.16261},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2610.16261}, 
+}
 
 ## License and acknowledgements
 
